@@ -1,8 +1,8 @@
 // Shuffle an array
-
-;let  Shuffle = ( ...List) => {;
+'use strict';
+let Shuffle = ( ...List) => {
   const [ arr ] = List;
-  arr.sort(() => Math.random() - 0.5); { return arr }
+  return arr.sort(() => Math.random() - 0.5);
 }
 
 const result = Shuffle(['a', 'b', 'c', 'd', 'e']);
